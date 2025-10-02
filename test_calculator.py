@@ -16,7 +16,7 @@ def test_add(a, b, expected):
 
 @pytest.mark.parametrize("a, b, expected", [
     (5, 3, 2),
-    (0, 4, 4),
+    (0, 4, -4),
     (-2, -3, 1),
     (2.5, 0.5, 2.0)
 ])
